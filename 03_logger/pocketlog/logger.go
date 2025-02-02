@@ -22,17 +22,7 @@ func (l *Logger) Infof(format string, args ...any) {
 	// TODO implement
 }
 
-// Warnf formats and prints a message if the log level is warn or higher
-func (l *Logger) Warnf(format string, args ...any) {
-	// TODO implement
-}
-
 // Errorf formats and prints a message if the log level is error or higher
 func (l *Logger) Errorf(format string, args ...any) {
-	//TODO implement
-}
-
-// Fatalf formats and prints a message if the log level is fatal or higher
-func (l *Logger) Fatalf(format string, args ...any) {
 	//TODO implement
 }

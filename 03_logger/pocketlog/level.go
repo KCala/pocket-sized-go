@@ -8,10 +8,6 @@ const (
 	LevelDebug Level = iota
 	// LevelInfo represents a logging level that contains information deemed valuable.
 	LevelInfo
-	// LevelWarn is for warnings
-	LevelWarn
 	// LevelError represents the highest logging level, only to be used to trace errors.
 	LevelError
-	// LevelFatal is for program-ending errors
-	LevelFatal
 )
